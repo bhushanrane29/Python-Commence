@@ -10,11 +10,11 @@ find the sum of the even-valued terms.
 
 
 
-FibList = [0,1]
+FibList = [0,1]                                                 #Defining first 2 elements of Fibonacci sequence manually
 
-for i in range(0,190):
-    FibList.append(FibList[i+1] + FibList[i])
-    if FibList[i+2] > 4000000:
+for i in range(0,200):                                          #Range limit is irrelevant
+    FibList.append(FibList[i+1] + FibList[i])                   #Adding next Fibonacci number to List
+    if FibList[i+2] > 4000000:                                  #Removing the last element if it exceeds 4 million
         FibList.pop(i+2)
         break
         

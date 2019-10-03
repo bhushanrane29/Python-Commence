@@ -10,7 +10,7 @@ find the sum of the even-valued terms.
 
 
 
-FibList = [0,1]                                                 #Defining first 2 elements of Fibonacci sequence manually
+FibList = [0,1]                                                 #Adding first 2 elements of Fibonacci sequence manually
 
 for i in range(0,200):                                          #Range limit is irrelevant
     FibList.append(FibList[i+1] + FibList[i])                   #Adding next Fibonacci number to List

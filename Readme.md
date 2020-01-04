@@ -1,4 +1,2 @@
 Just another Readme.
-Personal repository.
-
-Only useful for beginners in Python.
+Personal repository for practice and contemplation.

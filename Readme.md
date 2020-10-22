@@ -1,2 +1,2 @@
 Just another Readme.
-Personal repository for practice and contemplation.
+Personal repository for practice experimentation and contemplation.
